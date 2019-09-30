@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset=" UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Car Confirmation</title>
+</head>
+<body>
+    <p th:inline="text">
+        The car's name was [[${car.name}]].<br>
+        It is a [[${car.type}]].<br>
+        It is described as [[${car.description}]].<br>
+    </p>
+</body>
+</html>
